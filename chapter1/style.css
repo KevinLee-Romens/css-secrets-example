@@ -1,0 +1,190 @@
+section {
+  margin: 50px 0;
+}
+
+article {
+  margin: 30px 0;
+}
+
+.btn-wrapper {
+  font-size: 16px;
+}
+
+.origin-btn {
+  padding: 6px 16px;
+  border: 1px solid  #446d88;
+  background: #58a linear-gradient(#77a0bb, #58a);
+  border-right: 4px;
+  box-shadow: 0 1px 5px gray;
+  color: white;
+  text-shadow: 0 -1px 1px #335166;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.zoom__line-height {
+  padding: 6px 16px;
+  border: 1px solid  #446d88;
+  background: #58a linear-gradient(#77a0bb, #58a);
+  border-right: 4px;
+  box-shadow: 0 1px 5px gray;
+  color: white;
+  text-shadow: 0 -1px 1px #335166;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.zoom__line-height-and-font-size {
+  padding: 6px 16px;
+  border: 1px solid  #446d88;
+  background: #58a linear-gradient(#77a0bb, #58a);
+  border-right: 4px;
+  box-shadow: 0 1px 5px gray;
+  color: white;
+  text-shadow: 0 -1px 1px #335166;
+  font-size: 125%;
+  line-height: 1.5;
+}
+
+.zoom__all {
+  padding: .3em .8em;
+  border: 1px solid  #446d88;
+  background: #58a linear-gradient(#77a0bb, #58a);
+  border-radius: .2em;
+  box-shadow: 0 .05em .25em gray;
+  color: white;
+  text-shadow: 0 -.05em .05em #335166;
+  font-size: 125%;
+  line-height: 1.5;
+}
+
+.btn {
+  padding: .3em .8em;
+  border: 1px solid rgba(0, 0, 0, .1);
+  background: #58a linear-gradient(hsla(0, 0%, 100%, .2), transparent);
+  border-radius: .2em;
+  box-shadow: 0 .05em .25em gray;
+  color: white;
+  text-shadow: 0 -.05em .05em #335166;
+  font-size: 125%;
+  line-height: 1.5;
+}
+
+.btn__cancel {
+  background-color: #c00;
+}
+
+.btn__ok {
+  background-color: #6b0;
+}
+
+/* Form */
+.currentColor {
+  color: blue;
+}
+.currentColor hr {
+  height: .5em;
+  background: currentColor;
+}
+
+form {
+  margin-top: 10px;
+  color: orange;
+  font-size: 16px;
+}
+
+select {
+  -webkit-appearance: none
+}
+
+form input,
+form select,
+form option,
+form button {
+    margin-right: 5px;
+    color: inherit;
+}
+
+.popup {
+  display: none;
+}
+.hover input:focus ~ .popup {
+  display: block;
+  position: relative;
+  margin-top: 30px;
+  border: 1px solid grey;
+  border-radius: 2px;
+  background: lightgreen;
+}
+
+.popup::before {
+  content: "";
+  position: absolute;
+  top: -.4em;
+  left: 1em;
+  padding: .35em;
+  background: inherit;
+  border: inherit;
+  border-right: 0;
+  border-bottom: 0;
+  transform: rotate(45deg);
+}
+
+.eyes div,
+.eyes p {
+  display: inline-block;
+}
+
+.eyes div {
+  background: yellow;
+  width: 100px;
+  height: 200px;
+  text-align: center;
+}
+
+.eyes p {
+  position: absolute;
+  left: 30px;
+  width: 40px;
+  height: 40px;
+  background: brown;
+  margin: 0;
+}
+
+.eyes div {
+  position: relative;
+}
+
+.eyes div:first-child p {
+  top: 83px;
+}
+
+.eyes div:last-child p {
+  top: 80px;
+}
+
+.is-euqal-width div {
+  background: blue;
+  width: 50px;
+  height: 50px;
+}
+
+.is-euqal-width .circle {
+  margin-left: 50px;
+  border-radius: 50%;
+}
+
+
+.padding span {
+  background: navy;
+  color: white;
+  font-size: 20px;
+  margin-right: 50px;
+}
+
+.padding-same {
+  padding: .5em;
+}
+.padding-like-same {
+    padding: .3em .7em;
+}
